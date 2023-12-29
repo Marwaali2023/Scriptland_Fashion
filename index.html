@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scriptland Fashion Show</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fashion Show Competition</h1>
+        <div class="couple-list">
+
+            <div class="couple" data-index="0">
+                <span class="male">John</span>
+                <input type="number" class="male-points" id="male-points-0" placeholder="Points (1-10)">
+                <span class="female">Jane</span>
+                <input type="number" class="female-points" id="female-points-0" placeholder="Points (1-10)">
+            </div>
+            <div class="couple" data-index="1">
+                <span class="male">Michael</span>
+                <input type="number" class="male-points" id="male-points-1" placeholder="Points (1-10)">
+                <span class="female">Rachel</span>
+                <input type="number" class="female-points" id="female-points-1" placeholder="Points (1-10)">
+            </div>
+            <div class="couple" data-index="2">
+                <span class="male">William</span>
+                <input type="number" class="male-points" id="male-points-2" placeholder="Points (1-10)">
+                <span class="female">Sophia</span>
+                <input type="number" class="female-points" id="female-points-2" placeholder="Points (1-10)">
+            </div>
+            <div class="couple" data-index="3">
+                <span class="male">David</span>
+                <input type="number" class="male-points" id="male-points-3" placeholder="Points (1-10)">
+                <span class="female">Emily</span>
+                <input type="number" class="female-points" id="female-points-3" placeholder="Points (1-10)">
+            </div>
+            <div class="couple" data-index="4">
+                <span class="male">James</span>
+                <input type="number" class="male-points" id="male-points-4" placeholder="Points (1-10)">
+                <span class="female">Olivia</span>
+                <input type="number" class="female-points" id="female-points-4" placeholder="Points (1-10)">
+            </div>
+        </div>
+        <div id="result-message" class="result-box"></div>
+        <button onclick="calculateResults()">Calculate Results</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
